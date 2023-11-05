@@ -57,9 +57,9 @@ class _VerifyScreenState extends State<VerifyScreen> {
             centerTitle: true,
             backgroundColor: Colors.transparent,
             elevation: 0.0,
-            title: Icon(
+            title: const Icon(
               FontAwesomeIcons.twitter,
-              color: Colors.blue[300],
+              color: Color(0xff1DA1F2),
               size: 40,
             ),
           ),

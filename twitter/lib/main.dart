@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:twitter/screens/create_screen.dart';
+import 'package:twitter/screens/password_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Twitter',
-      home: const CreateScreen(),
+      home: const PasswordScreen(),
       theme: ThemeData(
         primaryColor: const Color(0xff1DA1F2),
       ),
