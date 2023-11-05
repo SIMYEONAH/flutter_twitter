@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:twitter/screens/create_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -124,7 +125,14 @@ class HomeScreen extends StatelessWidget {
                 CupertinoButton(
                   color: const Color(0xFF14171A),
                   borderRadius: BorderRadius.circular(30),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const CreateScreen(),
+                      ),
+                    );
+                  },
                   child: const Stack(
                     alignment: Alignment.center,
                     children: [
@@ -134,8 +142,8 @@ class HomeScreen extends StatelessWidget {
                           "Create Account",
                           style: TextStyle(
                             color: Color(0xFFF5F8FA),
-                            fontSize: 20,
-                            fontWeight: FontWeight.w900,
+                            fontSize: 18,
+                            fontWeight: FontWeight.w800,
                           ),
                         ),
                       ),
