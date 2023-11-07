@@ -52,9 +52,9 @@ class _PasswordScreenState extends State<PasswordScreen> {
             centerTitle: true,
             backgroundColor: Colors.transparent,
             elevation: 0.0,
-            title: const Icon(
+            title: Icon(
               FontAwesomeIcons.twitter,
-              color: Color(0xff1DA1F2),
+              color: Theme.of(context).primaryColor,
               size: 40,
             ),
           ),

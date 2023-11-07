@@ -29,9 +29,9 @@ class SignUpScreen extends StatelessWidget {
             centerTitle: true,
             backgroundColor: Colors.transparent,
             elevation: 0,
-            title: const Icon(
+            title: Icon(
               FontAwesomeIcons.twitter,
-              color: Color(0xff1DA1F2),
+              color: Theme.of(context).primaryColor,
               size: 40,
             ),
           ),
@@ -157,7 +157,7 @@ class SignUpScreen extends StatelessWidget {
                       height: 55,
                       child: CupertinoButton(
                         borderRadius: BorderRadius.circular(30),
-                        color: const Color(0xff1DA1F2),
+                        color: Theme.of(context).primaryColor,
                         onPressed: _TapSingUp,
                         child: const Text(
                           "Next",

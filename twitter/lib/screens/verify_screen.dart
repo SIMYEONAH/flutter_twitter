@@ -57,9 +57,9 @@ class _VerifyScreenState extends State<VerifyScreen> {
             centerTitle: true,
             backgroundColor: Colors.transparent,
             elevation: 0.0,
-            title: const Icon(
+            title: Icon(
               FontAwesomeIcons.twitter,
-              color: Color(0xff1DA1F2),
+              color: Theme.of(context).primaryColor,
               size: 40,
             ),
           ),
@@ -246,7 +246,7 @@ class _VerifyScreenState extends State<VerifyScreen> {
                   ),
                   Text(
                     "Didn't receive email?",
-                    style: TextStyle(color: Colors.blue[400]),
+                    style: TextStyle(color: Theme.of(context).primaryColor),
                   ),
                   const SizedBox(
                     height: 20,

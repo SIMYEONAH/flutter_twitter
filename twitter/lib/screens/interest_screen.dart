@@ -52,9 +52,9 @@ class InterestScreen extends StatelessWidget {
             centerTitle: true,
             backgroundColor: Colors.transparent,
             elevation: 0.0,
-            title: const Icon(
+            title: Icon(
               FontAwesomeIcons.twitter,
-              color: Color(0xff1DA1F2),
+              color: Theme.of(context).primaryColor,
               size: 40,
             ),
           ),
@@ -86,12 +86,13 @@ class InterestScreen extends StatelessWidget {
                   const SizedBox(
                     height: 20,
                   ),
-                  const Text(
+                  Text(
                     "Music",
                     style: TextStyle(
-                        fontSize: 22,
-                        fontWeight: FontWeight.w800,
-                        color: Color(0xff1DA1F2)),
+                      fontSize: 22,
+                      fontWeight: FontWeight.w800,
+                      color: Theme.of(context).primaryColor,
+                    ),
                   ),
                   const SizedBox(
                     height: 10,
@@ -110,12 +111,13 @@ class InterestScreen extends StatelessWidget {
                   const SizedBox(
                     height: 30,
                   ),
-                  const Text(
+                  Text(
                     "Entertainment",
                     style: TextStyle(
-                        fontSize: 22,
-                        fontWeight: FontWeight.w800,
-                        color: Color(0xff1DA1F2)),
+                      fontSize: 22,
+                      fontWeight: FontWeight.w800,
+                      color: Theme.of(context).primaryColor,
+                    ),
                   ),
                   const SizedBox(
                     height: 10,
@@ -139,7 +141,7 @@ class InterestScreen extends StatelessWidget {
                           padding: const EdgeInsets.symmetric(
                             horizontal: 30,
                           ),
-                          color: const Color(0xff1DA1F2),
+                          color: Theme.of(context).primaryColor,
                           child: const Text("Next"),
                           onPressed: () {
                             if (interestList.length >= 3) {

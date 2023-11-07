@@ -20,9 +20,9 @@ class HomeScreen extends StatelessWidget {
                 const SizedBox(
                   height: 10,
                 ),
-                const Icon(
+                Icon(
                   FontAwesomeIcons.twitter,
-                  color: Color(0xff1DA1F2),
+                  color: Theme.of(context).primaryColor,
                   size: 40,
                 ),
                 const SizedBox(

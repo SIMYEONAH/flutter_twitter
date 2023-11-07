@@ -80,9 +80,9 @@ class _CreateScreenState extends State<CreateScreen> {
             centerTitle: true,
             backgroundColor: Colors.transparent,
             elevation: 0,
-            title: const Icon(
+            title: Icon(
               FontAwesomeIcons.twitter,
-              color: Color(0xff1DA1F2),
+              color: Theme.of(context).primaryColor,
               size: 40,
             ),
           ),
